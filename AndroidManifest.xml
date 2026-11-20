@@ -10,7 +10,7 @@
     <uses-feature android:name="android.hardware.gamepad" android:required="false" />
 
     <application
-        android:label="God of War: Betrayal"
+        android:label="God of War"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:isGame="true"
@@ -20,7 +20,7 @@
 
         <activity
             android:name="org.libsdl.app.SDLActivity"
-            android:label="God of War: Betrayal"
+            android:label="God of War"
             android:icon="@mipmap/ic_launcher"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:exported="true"
