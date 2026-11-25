@@ -1,0 +1,11 @@
+.class public interface abstract Ljavax/wireless/messaging/Message;
+.super Ljava/lang/Object;
+.source "Message.java"
+
+
+# virtual methods
+.method public abstract getAddress()Ljava/lang/String;
+.end method
+
+.method public abstract setAddress(Ljava/lang/String;)V
+.end method

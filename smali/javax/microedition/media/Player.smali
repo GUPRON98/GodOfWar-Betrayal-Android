@@ -1,0 +1,61 @@
+.class public interface abstract Ljavax/microedition/media/Player;
+.super Ljava/lang/Object;
+.source "Player.java"
+
+
+# static fields
+.field public static final CLOSED:I = 0x0
+
+.field public static final PREFETCHED:I = 0x12c
+
+.field public static final REALIZED:I = 0xc8
+
+.field public static final STARTED:I = 0x190
+
+.field public static final TIME_UNKNOWN:J = -0x1L
+
+.field public static final UNREALIZED:I = 0x64
+
+
+# virtual methods
+.method public abstract addPlayerListener(Ljavax/microedition/media/PlayerListener;)V
+.end method
+
+.method public abstract close()V
+.end method
+
+.method public abstract deallocate()V
+.end method
+
+.method public abstract getControl(Ljava/lang/String;)Ljavax/microedition/media/control/Control;
+.end method
+
+.method public abstract getControls()[Ljavax/microedition/media/control/Control;
+.end method
+
+.method public abstract getMediaTime()J
+.end method
+
+.method public abstract getState()I
+.end method
+
+.method public abstract prefetch()V
+.end method
+
+.method public abstract realize()V
+.end method
+
+.method public abstract removePlayerListener(Ljavax/microedition/media/PlayerListener;)V
+.end method
+
+.method public abstract setLoopCount(I)V
+.end method
+
+.method public abstract setMediaTime(J)J
+.end method
+
+.method public abstract start()V
+.end method
+
+.method public abstract stop()V
+.end method

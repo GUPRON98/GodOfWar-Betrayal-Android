@@ -1,0 +1,27 @@
+version: 3.0.3-dirty
+apkFileName: GodOfWar.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 34
+versionInfo:
+  versionCode: 4
+  versionName: 1.1.0
+resourcesInfo:
+  packageId: 127
+  keepRawValues: true
+doNotCompress:
+- arsc
+- png
+- RP8
+- RP96
+- RP97
+- RP98
+- RP99
+- assets/RP8
+- assets/RP96
+- assets/RP97
+- assets/RP98
+- assets/RP99

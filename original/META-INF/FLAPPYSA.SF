@@ -1,0 +1,212 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA-256-Digest-Manifest: RJfWZr8c5SGtfVMo6MkECk71zbX398q6sYfXXDvZTQs=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: ooMoq2djxxHUTd8neyOnTUZzGqztFtWmuNE1lBfwumE=
+
+Name: RP1
+SHA-256-Digest: 1xEEIX3wFuXZFSEOIpix/etj86rtJiQkXwGHPgGKsoM=
+
+Name: RP10
+SHA-256-Digest: f4YmTXrmzY9pKeu5V095m1Yz8QXhjOfHJ0nWziT6Qkw=
+
+Name: RP13
+SHA-256-Digest: uzxJbwxRTSc4a6W/j21999ZCVDcn7tV3Kz3JrZyJ5OA=
+
+Name: RP14
+SHA-256-Digest: xaZ0aC+raI3EelFP9cGvIWRB2llSIpq/s3KWqGc2oww=
+
+Name: RP15
+SHA-256-Digest: NNPG1qhxdvyFs1L7g6GwR1ZndgdwsEis41py9CUVuLs=
+
+Name: RP16
+SHA-256-Digest: wOgPx3OP3nJpQdgJmQckUhorjpN4HSlYhiahiNwyPM4=
+
+Name: RP17
+SHA-256-Digest: lw4eWMWA6Heqh35lN6dsduZLAkRRYHXNkUVcSb6VpGw=
+
+Name: RP18
+SHA-256-Digest: Y7TVdf55mSrhCXpVx5YeG8Gno9woyMtB1a3qnsT4FZo=
+
+Name: RP19
+SHA-256-Digest: eJO0jkDvLeOcdwX+lBBrvODysK6PVMoolRXJnsFcwVM=
+
+Name: RP2
+SHA-256-Digest: euRLmfngA5INN1Q9YY08bFouwVkoF5z3QSBohIfB+zA=
+
+Name: RP20
+SHA-256-Digest: 0FVdcOUoseNIi5XDGsej27t1WKV642Xyq7DA+wfOcyg=
+
+Name: RP21
+SHA-256-Digest: Skp2tLmJRmXbkGdR9meo5PsvnkAupWlgOlsn290oMYY=
+
+Name: RP22
+SHA-256-Digest: wIqEqyZknwGNOuQc8oZqwVgQLMpjZoJZXHa0wC0r460=
+
+Name: RP23
+SHA-256-Digest: 8tlMefPEnJzaHAZ+dUzluIh0L45nhNjczCynoEAq0Z0=
+
+Name: RP24
+SHA-256-Digest: u2tdcXP4ZAaGC394J1mPAGgCcx2QoZGfziaC2HWbE38=
+
+Name: RP25
+SHA-256-Digest: Fa5Lta3N1gQiSh9eR5a8hBJhp5p/YKLNOFCA2jDWPK8=
+
+Name: RP26
+SHA-256-Digest: B3YLMeadpycVVCTgkW5xjHCSKJ6a6jbrFejlfPlnt2c=
+
+Name: RP27
+SHA-256-Digest: hdw63ukWTXfJp6XMBr9GavYRtdVGcQsc5UP4KH60MqY=
+
+Name: RP28
+SHA-256-Digest: fom9QYSuTAbDy2DxmqQ1e44M3OPfuzMO1D/8o24+REA=
+
+Name: RP3
+SHA-256-Digest: UUFrpxTe6mohL1HCehCWW34a3JhOdMBLmmlynMemogk=
+
+Name: RP4
+SHA-256-Digest: soWXUCfN5aCLn+zGhdHgiYY8B+ZCe0k1wV/Ayd5HSxo=
+
+Name: RP5
+SHA-256-Digest: UFnBOPuMz89WbsPX0ChfAha1aIP8hCs7wnr7/K/jLHk=
+
+Name: RP6
+SHA-256-Digest: 4M+/nwfUXFylFXCsV0Qmq7pm6OwahEaYPOwtRSmE8Oo=
+
+Name: RP7
+SHA-256-Digest: wzzSGclvceDRJKUY4zQ/QdQc+ve4Pd97xb/d0heYqdw=
+
+Name: RP8
+SHA-256-Digest: 7YF2w8k1nd/hibLZdkOwNKk/aWljxqOmq1yE592oy0c=
+
+Name: RP9
+SHA-256-Digest: tqZw/a0D2tUMi/oalAWoll6q0fUAEUd18tXMmBK7N5k=
+
+Name: RP96
+SHA-256-Digest: UKFh7OzCs+rkB53o/+14sUaff7Myo7BryYfa5BL69Og=
+
+Name: RP97
+SHA-256-Digest: aDWg0Ahq4HF4YwhjKBYzd3Xe3vTsZG38dcP73PGbVtA=
+
+Name: RP98
+SHA-256-Digest: nG6lmS3D7MJB8rmFJHkPfHdWzUvGTFZyu9DHfLRObJk=
+
+Name: RP99
+SHA-256-Digest: rRb7lHUjWYpzNLw67wCUbOHR85WC+BpwvCOPOf4bIwE=
+
+Name: assets/META-INF/MANIFEST.MF
+SHA-256-Digest: iHsS3eQW4a0ljOfSKDT9s6N9V/tXYrNgstbic3wNfek=
+
+Name: assets/RP1
+SHA-256-Digest: 1GCdaao0ruKWiCDIwKlswC6akOyFeVLqHiyhrfWpybk=
+
+Name: assets/RP10
+SHA-256-Digest: opxx3erTIuiSHTTb0GNQPDpZONtjlB7/waLukjPYO+M=
+
+Name: assets/RP13
+SHA-256-Digest: 0iGShWHg682NeXDyQ5pyr0rpG2iB/Le5vETawQGQVHU=
+
+Name: assets/RP14
+SHA-256-Digest: HCrqG2PRbg6UWGEDOugoOVOnbmX/+26ka4KOTVLcaj0=
+
+Name: assets/RP15
+SHA-256-Digest: nld4lDuENj4oJXRa4A9M4IsZMfGaqCn/I9dOcX85fcA=
+
+Name: assets/RP16
+SHA-256-Digest: Awvs2qiNy1XeT6eYnr/EtQ51G2FwuGDF0etJzTeaXwk=
+
+Name: assets/RP17
+SHA-256-Digest: owG334d+ykhI0jWa7FrRmA3MeVzRdjH8s5S8swq0cZc=
+
+Name: assets/RP18
+SHA-256-Digest: GTY1eegA0vsWf/9EjLxTQ4XCnbkLOxtfod++EynBjOE=
+
+Name: assets/RP19
+SHA-256-Digest: Scs0hFziWlsUw0uddL5W091P2l75C66zKnKPNhdD3aI=
+
+Name: assets/RP2
+SHA-256-Digest: g2Lm8uYs7NYu8WK3ighnFsSKe3ByzzvV/VsU4AdrHd8=
+
+Name: assets/RP20
+SHA-256-Digest: 6+AC/C9QjkCE9thfAWewdur9sR0k2Os5DNz70XeLe90=
+
+Name: assets/RP21
+SHA-256-Digest: UhV8a04FA9ljHcA36WaMsVJaDbfPuf4y85+xX2Rq21s=
+
+Name: assets/RP22
+SHA-256-Digest: Eww7ma4wDmmbmnLgLExh1oQXMBJPk57snrmTn9KDNLI=
+
+Name: assets/RP23
+SHA-256-Digest: XEacU6f59quKUyC5vMag4auEjpVQtJFgiBV6MBe18Ik=
+
+Name: assets/RP24
+SHA-256-Digest: VvbkoagpbImwsuia2T4lVceIg4cdnpEBVvGbckSGJJc=
+
+Name: assets/RP25
+SHA-256-Digest: l5YQCXahlfhPPjX32n2d3VMTZFJq3RiosbsVzOjYIkw=
+
+Name: assets/RP26
+SHA-256-Digest: T8MPPrchF0TYdZxaJkAj6Fhx+eltvpILFYL3Phz1mio=
+
+Name: assets/RP27
+SHA-256-Digest: RNkmmq43f+15C7fMYqmwLRzyZBIZdBZ+f37YRsLGN48=
+
+Name: assets/RP28
+SHA-256-Digest: 3YG0SxV7Pk//eUiisF1CPsOcxbMLxUoAv73j4yiu5Nk=
+
+Name: assets/RP3
+SHA-256-Digest: 9ikXAhheCV1LIE7a9A0vtG0gO8RWK175jycCyeuXrV8=
+
+Name: assets/RP4
+SHA-256-Digest: DNU4wLwcXRFOF26kjIs7vTxtTZpOjNobmcZKpnaXgI8=
+
+Name: assets/RP5
+SHA-256-Digest: 331/6uaUizBsWBbBv8RH5ro2SFpey3kW+l+7Isy8Y+E=
+
+Name: assets/RP6
+SHA-256-Digest: 9xZHwahpZuziHAAksOPado5GtLEkqA+qJKwG5MIGHkQ=
+
+Name: assets/RP7
+SHA-256-Digest: 1nIGollZK/GcszULC1VmeCH2yXJc/oaZqPak396zUMI=
+
+Name: assets/RP8
+SHA-256-Digest: 9OigJP0vzlglfkz/2LVJC1oPL7o+zstxYj/xwQ5d/Ws=
+
+Name: assets/RP9
+SHA-256-Digest: SqqJJ/PsFZzyZX1/VGYG/qIQL8Eu2rlTXtvaCq0VGPM=
+
+Name: assets/RP96
+SHA-256-Digest: X7xnSH3oqEv2/F2yM6+5LfTsbFy58RIKsBjMPoLl3ZI=
+
+Name: assets/RP97
+SHA-256-Digest: kaFr/+2ZLeqRpVAsZ5VSRj9M7Kbiwat4/tS2BNH7RLU=
+
+Name: assets/RP98
+SHA-256-Digest: ikCi6dvH2D0aKBA+2xnnaPjYrucRotHyY4xPe9p2Txo=
+
+Name: assets/RP99
+SHA-256-Digest: 6PlqJm8MAD/fixS1uSYyhcHcniVI7daVNU/9BUIIlJM=
+
+Name: assets/fulltouch.png
+SHA-256-Digest: Cw2+Y0uzZ/FTqlxtd0vLsTmzXWIc1XbS2nVEmh0csQA=
+
+Name: assets/i.png
+SHA-256-Digest: 32n//7RCiBHwLAZ3Ux3u+nTYmOrKvc2zqAaN33mgmKY=
+
+Name: classes.dex
+SHA-256-Digest: BKzrNbe8fsvL6UgM+9sWjJGovYV588EPDvL2BI61x5Y=
+
+Name: fulltouch.png
+SHA-256-Digest: 242+J0Nbq03U7mivmU+3VHYiG4Aytzo9w7FMVyY5RyI=
+
+Name: i.png
+SHA-256-Digest: T5aFRtI6wiXBEz0Hhwy6ysYHQnX5UdVQjbOn6O08QHY=
+
+Name: res/drawable/icon.png
+SHA-256-Digest: B2KQ0MFM7tq9i+5ULfabAYJmVbV6ob2FP9PqfXyEmhw=
+
+Name: resources.arsc
+SHA-256-Digest: LTSfhHWjE3rYa7TonCapdr6dWm5Qu3LB6q3FIyVqX2w=
+

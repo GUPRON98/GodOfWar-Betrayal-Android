@@ -1,67 +1,51 @@
-# ⚔️ God of War: Betrayal — Native Android Remastered + Cheat Engine
+# ⚔️ God of War: Betrayal — Android Port + Spartan Controller & Cheat Engine
 
-[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84.svg?logo=android&logoColor=white)](https://github.com/GUPRON98/GodOfWar-Betrayal-Android)
-[![Architecture](https://img.shields.io/badge/Architecture-ARM64%20%7C%20x86__64-orange.svg)](https://github.com/GUPRON98/GodOfWar-Betrayal-Android)
-[![Frame Rate](https://img.shields.io/badge/FPS-60%20%2F%2090%20%2F%20120%20Hz-blue.svg)](https://github.com/GUPRON98/GodOfWar-Betrayal-Android)
-[![Credits](https://img.shields.io/badge/Credits-SupaRj%20%26%20samioan-red.svg)](https://github.com/SupaRj/gow-betrayal-remastered-Android-Native-port)
+[![Platform](https://img.shields.io/badge/Platform-Android%205.0%E2%80%9316-3DDC84.svg?logo=android&logoColor=white)](https://github.com/GUPRON98/GodOfWar-Betrayal-Android)
+[![SDK](https://img.shields.io/badge/SDK-min%2021%20%7C%20target%2034-orange.svg)](https://github.com/GUPRON98/GodOfWar-Betrayal-Android)
 
-Port Android Native berperforma tinggi dari **God of War: Betrayal (2007)** dengan dukungan **Widescreen Fullscreen**, **60 FPS Gameplay**, **On-Screen Multi-touch Controls**, dan **Interactive In-Game Cheat Engine**.
+Port Android dari **God of War: Betrayal** dengan tampilan **Fullscreen Landscape**, **Custom Spartan Controller** (Obsidian Crimson & Burnished Gold + Icon Tematik), **Built-in Cheat Engine (`⚡ CHEAT`)**, dan perbaikan bug crash / resource loader.
 
 ---
 
 ## 📸 Screenshots
 
-| Gameplay 60 FPS Widescreen | In-Game Cheat & Currency Engine |
+| Main Menu & Spartan Controller | Gameplay & In-Game Cheat Engine |
 | :---: | :---: |
-| ![Gameplay](screenshots/gameplay.png) | ![Cheat Menu](screenshots/cheat_menu.png) |
+| ![Main Menu](screenshots/menu.png) | ![Gameplay & Cheat](screenshots/gameplay_cheat.png) |
 
 ---
 
 ## ⚡ Fitur Utama
 
-- ⚔️ **Native Performance (60 / 90 / 120 FPS)**: Berjalan mulus menggunakan engine C++ dan SDL2 tanpa emulator Java yang berat.
-- 📱 **Clean Widescreen & Touch Controls**: Tampilan fullscreen landscape dengan kontrol sentuh responsif tanpa tombol berbayang.
-- 🔓 **Tanpa Gangguan Izin Sistem**: Telah dioptimalkan agar tidak memicu pop-up izin *All Files Access / MANAGE_EXTERNAL_STORAGE*.
-- ⚡ **Interactive In-Game Cheat Engine (`⚡ CHEAT`)**:
-  - **Custom Currency / Red Orbs**: Tambah currency secara bebas (input nominal apa pun atau tombol cepat `+5K`, `+20K`, `+50K`, `MAX 999K`).
-  - **❤️ Max Health**: Gorgon Eyes maksimal (bar darah penuh).
-  - **⚡ Max Magic**: Phoenix Feathers maksimal (bar mana penuh).
-  - **⚔️ Max Blades & Combos**: Blades of Chaos Level 3 + Combo maksimal.
-  - **🐍 Max All Spells**: Medusa's Gaze & Bow of Apollo Level 3.
-  - **🗺️ Unlock All 10 Stages**: Bebas memilih stage 1 sampai 10.
-  - **💀 Best Kill Count 9999**.
-  - **🔥 One-Click ALL-IN-ONE Cheat**.
+- 📱 **Fullscreen Landscape**: Area game (`rectGame`) mengisi penuh layar perangkat tanpa bar hitam di samping.
+- 🛡️ **Spartan-Themed Controller + Custom Icons**:
+  - Warna **Obsidian Crimson & Burnished Gold**.
+  - Icon tematik: `Ω` (D-Pad Center), `⚔ ATK`, `🔥 PWR`, `⏫ JUMP`, `↻ ROLL`, `🔱 MAGIC`, `⚙ SUB`, `☰ MENU`, `↩ BACK`, dan `⚡ CHEAT`.
+- ⚡ **Built-in Cheat Engine (`⚡ CHEAT`)**:
+  - 🛡️ **Godmode**
+  - 💖 **Darah Penuh (Max HP)**
+  - ⚡ **Sihir Penuh (Max Magic)**
+  - 🔴 **999.999 Red Orbs**
+  - ⚔️ **Max Stat & Senjata Dewa**
+  - 🗺️ **Buka Semua Stage (Stage 1–10)**
+  - 💀 **One Hit Kill / Bunuh Semua Musuh**
+- 🐛 **Bug & Crash Fixes**:
+  - Perbaikan `ResourceLoader.open(...)` di `d.smali` dan `e.smali` agar seluruh arsip `/RP*` terbaca dari `assets/` saat masuk gameplay.
+  - Penambahan null & bounds guard pada `d.b([SII)I`, `d.b(II)Z`, `d.c(I)[B`, `d.p(I)I`, dan `d.a(...)` untuk mencegah force close.
 
 ---
 
 ## 📦 Download APK
 
-Unduh file APK siap pasang dari bagian [Releases](https://github.com/GUPRON98/GodOfWar-Betrayal-Android/releases/latest) atau download langsung:
-- **[GodOfWar.apk](https://github.com/GUPRON98/GodOfWar-Betrayal-Android/releases/download/v1.2/GodOfWar.apk)**
+Unduh langsung file APK siap pasang:
+- **[GodOfWar.apk](GodOfWar.apk)** (`minSdkVersion 21`, `targetSdkVersion 34`, pure Java/Smali tanpa native `.so`, kompatibel hingga Android 15/16)
 
 ---
 
-## 🎮 Cara Menggunakan Cheat Engine
+## 🛠️ Build dari Source (Termux / Linux)
 
-1. Buka game **God of War: Betrayal**.
-2. Sentuh tombol **`⚡ CHEAT`** di pojok kanan atas layar.
-3. Masukkan nominal Red Orbs yang diinginkan atau pilih cheat instan.
-4. Tekan **"SIMPAN CURRENCY"** atau pilih cheat yang diinginkan.
-5. Perubahan akan langsung aktif di dalam permainan!
-
-Tersedia juga script CLI untuk Termux:
 ```bash
-python3 gow_cheat.py
+apktool b . -o unaligned.apk
+zipalign -f 4 unaligned.apk GodOfWar.apk
+apksigner sign --ks gow.keystore --ks-key-alias gow --ks-pass pass:gow123456 --key-pass pass:gow123456 GodOfWar.apk
 ```
-
----
-
-## 🏛️ Credits & Attribution
-
-Proyek ini dibuat dan disempurnakan berdasarkan karya luar biasa dari komunitas reverse-engineering:
-
-- **[SupaRj / gow-betrayal-remastered-Android-Native-port](https://github.com/SupaRj/gow-betrayal-remastered-Android-Native-port)**: Port Android Native orisinal, implementasi SDL2, kontrol sentuh mobile, dan engine audio MIDI.
-- **[samioan / gow-betrayal-remastered](https://github.com/samioan/gow-betrayal-remastered)**: Reverse-engineering bytecode Java asli (Sony Ericsson K800i MIDlet 1.4.20) dan rekonstruksi engine C++.
-- **Sony Interactive Entertainment, Santa Monica Studio & Glu Mobile**: Pengembang dan pemegang hak cipta asli atas *God of War: Betrayal* (2007).
-
-*Catatan: Proyek ini ditujukan semata-mata untuk tujuan edukasi dan preservasi sejarah game klasik mobile.*
