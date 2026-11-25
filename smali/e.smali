@@ -4760,7 +4760,20 @@
     :cond_15
     move-object/from16 v1, p1
 
+    if-eqz v1, :cond_empty_arr
+
+    array-length v4, v1
+
+    if-lez v4, :cond_empty_arr
+
     iput-object v1, v0, Le;->ci:[B
+
+    goto :goto_15_ok
+
+    :cond_empty_arr
+    return-void
+
+    :goto_15_ok
 
     iput v2, v0, Le;->cj:I
 
@@ -15475,7 +15488,15 @@
 
     iget-object v2, p0, Le;->ci:[B
 
+    if-eqz v2, :cond_1
+
     iget v4, p0, Le;->cj:I
+
+    if-ltz v4, :cond_1
+
+    array-length v5, v2
+
+    if-ge v4, v5, :cond_1
 
     add-int/lit8 v5, v4, 0x1
 

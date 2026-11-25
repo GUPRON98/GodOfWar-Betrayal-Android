@@ -1671,29 +1671,62 @@
 .method public final a([SII)I
     .locals 11
 
+    if-eqz p1, :cond_null_a
+
     invoke-direct {p0, p2}, Ld;->p(I)I
 
     move-result p2
 
     iget-object v0, p0, Ld;->C:[[I
 
-    iget v1, p0, Ld;->J:I
+    if-eqz v0, :cond_null_a
 
-    aget-object v0, v0, v1
+    iget-object v1, p0, Ld;->D:[[I
+
+    if-eqz v1, :cond_null_a
+
+    iget v2, p0, Ld;->J:I
+
+    if-ltz v2, :cond_null_a
+
+    array-length v3, v0
+
+    if-ge v2, v3, :cond_null_a
+
+    array-length v3, v1
+
+    if-ge v2, v3, :cond_null_a
+
+    aget-object v0, v0, v2
+
+    if-eqz v0, :cond_null_a
+
+    aget-object v1, v1, v2
+
+    if-eqz v1, :cond_null_a
+
+    if-ltz p2, :cond_null_a
+
+    array-length v2, v0
+
+    if-ge p2, v2, :cond_null_a
 
     aget p2, v0, p2
 
     ushr-int/lit8 v0, p2, 0x10
 
-    iget-object v1, p0, Ld;->D:[[I
-
-    iget v2, p0, Ld;->J:I
-
-    aget-object v1, v1, v2
-
     and-int/lit16 p2, p2, 0xff
 
     add-int v2, v0, p2
+
+    goto :goto_start
+
+    :cond_null_a
+    const/4 v0, 0x0
+
+    return v0
+
+    :goto_start
 
     const/4 v3, 0x0
 
@@ -4230,23 +4263,52 @@
 
     iget-object p3, p0, Ld;->C:[[I
 
-    iget p4, p0, Ld;->J:I
+    if-eqz p3, :cond_null_b
 
-    aget-object p3, p3, p4
+    iget-object p4, p0, Ld;->D:[[I
+
+    if-eqz p4, :cond_null_b
+
+    iget p5, p0, Ld;->J:I
+
+    if-ltz p5, :cond_null_b
+
+    array-length v0, p3
+
+    if-ge p5, v0, :cond_null_b
+
+    array-length v0, p4
+
+    if-ge p5, v0, :cond_null_b
+
+    aget-object p3, p3, p5
+
+    if-eqz p3, :cond_null_b
+
+    aget-object p4, p4, p5
+
+    if-eqz p4, :cond_null_b
+
+    if-ltz p2, :cond_null_b
+
+    array-length p5, p3
+
+    if-ge p2, p5, :cond_null_b
 
     aget p2, p3, p2
 
     ushr-int/lit8 p3, p2, 0x10
 
-    iget-object p4, p0, Ld;->D:[[I
-
-    iget p5, p0, Ld;->J:I
-
-    aget-object p4, p4, p5
-
     and-int/lit16 p2, p2, 0xff
 
     add-int/2addr p2, p3
+
+    goto :goto_start_b
+
+    :cond_null_b
+    return-void
+
+    :goto_start_b
 
     const p5, 0x7fffffff
 
